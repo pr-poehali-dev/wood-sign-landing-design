@@ -13,9 +13,8 @@ const Index = () => {
       <div className="relative max-w-5xl mx-auto px-4 py-8 md:py-12">
         <div className="space-y-6">
           
-          <section className="relative rounded-2xl shadow-2xl p-8 md:p-16 text-center border-4 border-[#6B5437]/50 overflow-hidden" style={{background: 'linear-gradient(135deg, #3e2723 0%, #5d4037 25%, #4e342e 50%, #3e2723 75%, #5d4037 100%)', backgroundSize: '400% 400%'}}>
-            <div className="absolute inset-0" style={{backgroundImage: 'url("data:image/svg+xml,%3Csvg width="200" height="200" xmlns="http://www.w3.org/2000/svg"<%3E%3Cfilter id="noise"%3E%3CfeTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" /%3E%3C/filter%3E%3Crect width="100%25" height="100%25" filter="url(%23noise)" opacity="0.15"/%3E%3C/svg%3E")', opacity: 0.4}} />
-            <div className="absolute inset-0" style={{backgroundImage: 'repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.03) 2px, rgba(0,0,0,0.03) 3px), repeating-linear-gradient(90deg, transparent, transparent 20px, rgba(0,0,0,0.02) 20px, rgba(0,0,0,0.02) 21px)', backgroundBlendMode: 'multiply'}} />
+          <section className="relative rounded-2xl shadow-2xl p-8 md:p-16 text-center border-4 border-[#6B5437]/50 overflow-hidden" style={{backgroundImage: 'url(https://cdn.poehali.dev/projects/8bf209e7-a4bf-44cf-a24a-b81de66bb646/files/68b32fa8-daba-4287-ac8a-5a479bc6f7d2.jpg)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
+            <div className="absolute inset-0 bg-gradient-to-br from-black/20 via-transparent to-black/20" />
             <div className="absolute top-4 left-4 w-3 h-3 rounded-full bg-[hsl(var(--wood-dark))] shadow-inner" />
             <div className="absolute top-4 right-4 w-3 h-3 rounded-full bg-[hsl(var(--wood-dark))] shadow-inner" />
             <div className="absolute bottom-4 left-4 w-3 h-3 rounded-full bg-[hsl(var(--wood-dark))] shadow-inner" />
@@ -48,9 +47,8 @@ const Index = () => {
             </div>
           </section>
 
-          <section className="relative rounded-xl shadow-xl p-6 md:p-10 border-2 border-[#8B6F47]/30 overflow-hidden" style={{background: 'linear-gradient(135deg, #a67c52 0%, #bf9b6f 20%, #d4a574 40%, #c89f6a 60%, #a67c52 80%, #bf9b6f 100%)', backgroundSize: '400% 400%'}}>
-            <div className="absolute inset-0" style={{backgroundImage: 'url("data:image/svg+xml,%3Csvg width="200" height="200" xmlns="http://www.w3.org/2000/svg"%3E%3Cfilter id="noise"%3E%3CfeTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" /%3E%3C/filter%3E%3Crect width="100%25" height="100%25" filter="url(%23noise)" opacity="0.12"/%3E%3C/svg%3E")', opacity: 0.5}} />
-            <div className="absolute inset-0" style={{backgroundImage: 'repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.02) 2px, rgba(0,0,0,0.02) 3px), repeating-linear-gradient(90deg, transparent, transparent 15px, rgba(139,111,71,0.03) 15px, rgba(139,111,71,0.03) 16px)'}} />
+          <section className="relative rounded-xl shadow-xl p-6 md:p-10 border-2 border-[#8B6F47]/30 overflow-hidden" style={{backgroundImage: 'url(https://cdn.poehali.dev/projects/8bf209e7-a4bf-44cf-a24a-b81de66bb646/files/1ae6540d-a279-4be8-9268-b1d5cdefffd8.jpg)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
+            <div className="absolute inset-0 bg-gradient-to-br from-white/5 via-transparent to-black/5" />
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div className="order-2 md:order-1">
                 <h2 className="text-3xl md:text-4xl font-bold text-[hsl(var(--wood-dark))] mb-4 uppercase">
@@ -85,9 +83,8 @@ const Index = () => {
             </div>
           </section>
 
-          <section className="relative rounded-xl shadow-xl p-6 md:p-10 border-2 border-[#8B6F47]/30 overflow-hidden" style={{background: 'linear-gradient(135deg, #5b7f8a 0%, #6a8e98 30%, #7b9ea8 50%, #6a8e98 70%, #5b7f8a 100%)', backgroundSize: '400% 400%'}}>
-            <div className="absolute inset-0" style={{backgroundImage: 'url("data:image/svg+xml,%3Csvg width="200" height="200" xmlns="http://www.w3.org/2000/svg"%3E%3Cfilter id="noise"%3E%3CfeTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" /%3E%3C/filter%3E%3Crect width="100%25" height="100%25" filter="url(%23noise)" opacity="0.1"/%3E%3C/svg%3E")', opacity: 0.6}} />
-            <div className="absolute inset-0" style={{backgroundImage: 'repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(255,255,255,0.02) 2px, rgba(255,255,255,0.02) 3px), repeating-linear-gradient(90deg, transparent, transparent 18px, rgba(0,0,0,0.02) 18px, rgba(0,0,0,0.02) 19px)'}} />
+          <section className="relative rounded-xl shadow-xl p-6 md:p-10 border-2 border-[#8B6F47]/30 overflow-hidden" style={{backgroundImage: 'url(https://cdn.poehali.dev/projects/8bf209e7-a4bf-44cf-a24a-b81de66bb646/files/487b53fc-3e6b-4d95-891a-7d887c3bf029.jpg)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
+            <div className="absolute inset-0 bg-gradient-to-br from-black/10 via-transparent to-white/5" />
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
                 <img 
@@ -122,9 +119,8 @@ const Index = () => {
             </div>
           </section>
 
-          <section className="relative rounded-xl shadow-xl p-6 md:p-10 border-2 border-[#8B6F47]/30 overflow-hidden" style={{background: 'linear-gradient(135deg, #6b7b5b 0%, #7a8a6b 25%, #8b9b7b 50%, #7a8a6b 75%, #6b7b5b 100%)', backgroundSize: '400% 400%'}}>
-            <div className="absolute inset-0" style={{backgroundImage: 'url("data:image/svg+xml,%3Csvg width="200" height="200" xmlns="http://www.w3.org/2000/svg"%3E%3Cfilter id="noise"%3E%3CfeTurbulence type="fractalNoise" baseFrequency="0.75" numOctaves="3" /%3E%3C/filter%3E%3Crect width="100%25" height="100%25" filter="url(%23noise)" opacity="0.13"/%3E%3C/svg%3E")', opacity: 0.5}} />
-            <div className="absolute inset-0" style={{backgroundImage: 'repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.025) 2px, rgba(0,0,0,0.025) 3px), repeating-linear-gradient(90deg, transparent, transparent 16px, rgba(0,0,0,0.02) 16px, rgba(0,0,0,0.02) 17px)'}} />
+          <section className="relative rounded-xl shadow-xl p-6 md:p-10 border-2 border-[#8B6F47]/30 overflow-hidden" style={{backgroundImage: 'url(https://cdn.poehali.dev/projects/8bf209e7-a4bf-44cf-a24a-b81de66bb646/files/f6e0bc7e-c57a-4e79-94c9-f759428acfb2.jpg)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
+            <div className="absolute inset-0 bg-gradient-to-br from-white/10 via-transparent to-black/10" />
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div className="order-2 md:order-1">
                 <h2 className="text-3xl md:text-4xl font-bold text-[hsl(var(--primary-foreground))] mb-4 uppercase text-shadow-light">
@@ -159,9 +155,8 @@ const Index = () => {
             </div>
           </section>
 
-          <section className="relative rounded-2xl shadow-2xl p-8 md:p-16 text-center border-4 border-[#8B6F47]/40 overflow-hidden" style={{background: 'linear-gradient(135deg, #b86b6b 0%, #c67b7b 20%, #d4a574 40%, #c67b7b 60%, #b86b6b 80%, #c67b7b 100%)', backgroundSize: '400% 400%'}}>
-            <div className="absolute inset-0" style={{backgroundImage: 'url("data:image/svg+xml,%3Csvg width="200" height="200" xmlns="http://www.w3.org/2000/svg"%3E%3Cfilter id="noise"%3E%3CfeTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="4" /%3E%3C/filter%3E%3Crect width="100%25" height="100%25" filter="url(%23noise)" opacity="0.14"/%3E%3C/svg%3E")', opacity: 0.5}} />
-            <div className="absolute inset-0" style={{backgroundImage: 'repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.03) 2px, rgba(0,0,0,0.03) 3px), repeating-linear-gradient(90deg, transparent, transparent 17px, rgba(0,0,0,0.025) 17px, rgba(0,0,0,0.025) 18px)'}} />
+          <section className="relative rounded-2xl shadow-2xl p-8 md:p-16 text-center border-4 border-[#8B6F47]/40 overflow-hidden" style={{backgroundImage: 'url(https://cdn.poehali.dev/projects/8bf209e7-a4bf-44cf-a24a-b81de66bb646/files/1ae6540d-a279-4be8-9268-b1d5cdefffd8.jpg)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
+            <div className="absolute inset-0 bg-gradient-to-br from-[#C67B7B]/60 via-[#D4A574]/50 to-[#B86B6B]/60" />
             <div className="absolute top-6 left-6 w-4 h-4 rounded-full bg-[hsl(var(--wood-dark))] shadow-inner" />
             <div className="absolute top-6 right-6 w-4 h-4 rounded-full bg-[hsl(var(--wood-dark))] shadow-inner" />
             <div className="absolute bottom-6 left-6 w-4 h-4 rounded-full bg-[hsl(var(--wood-dark))] shadow-inner" />
