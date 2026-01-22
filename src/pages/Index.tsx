@@ -11,11 +11,11 @@ const Index = () => {
       />
       
       <div className="relative max-w-5xl mx-auto px-4 py-8 md:py-12">
-        <div className="space-y-0">
+        <div className="space-y-6">
           
-          <section className="relative bg-gradient-to-br from-[#8B6F47] via-[#9B7F57] to-[#7A5F3F] rounded-2xl shadow-2xl p-8 md:p-16 text-center border-4 border-[#6B5437]/50 mb-4 overflow-hidden">
-            <div className="absolute inset-0 opacity-20" style={{backgroundImage: 'radial-gradient(circle at 20% 50%, rgba(255,255,255,0.1) 0%, transparent 50%), radial-gradient(circle at 80% 50%, rgba(0,0,0,0.1) 0%, transparent 50%)'}} />
-            <div className="absolute inset-0 opacity-30" style={{backgroundImage: 'repeating-linear-gradient(90deg, transparent, transparent 2px, rgba(0,0,0,0.05) 2px, rgba(0,0,0,0.05) 4px)'}} />
+          <section className="relative rounded-2xl shadow-2xl p-8 md:p-16 text-center border-4 border-[#6B5437]/50 overflow-hidden" style={{background: 'linear-gradient(135deg, #3e2723 0%, #5d4037 25%, #4e342e 50%, #3e2723 75%, #5d4037 100%)', backgroundSize: '400% 400%'}}>
+            <div className="absolute inset-0" style={{backgroundImage: 'url("data:image/svg+xml,%3Csvg width="200" height="200" xmlns="http://www.w3.org/2000/svg"<%3E%3Cfilter id="noise"%3E%3CfeTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" /%3E%3C/filter%3E%3Crect width="100%25" height="100%25" filter="url(%23noise)" opacity="0.15"/%3E%3C/svg%3E")', opacity: 0.4}} />
+            <div className="absolute inset-0" style={{backgroundImage: 'repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.03) 2px, rgba(0,0,0,0.03) 3px), repeating-linear-gradient(90deg, transparent, transparent 20px, rgba(0,0,0,0.02) 20px, rgba(0,0,0,0.02) 21px)', backgroundBlendMode: 'multiply'}} />
             <div className="absolute top-4 left-4 w-3 h-3 rounded-full bg-[hsl(var(--wood-dark))] shadow-inner" />
             <div className="absolute top-4 right-4 w-3 h-3 rounded-full bg-[hsl(var(--wood-dark))] shadow-inner" />
             <div className="absolute bottom-4 left-4 w-3 h-3 rounded-full bg-[hsl(var(--wood-dark))] shadow-inner" />
@@ -48,8 +48,9 @@ const Index = () => {
             </div>
           </section>
 
-          <section className="relative bg-gradient-to-br from-[#D4A574] via-[#C89F6A] to-[#B8946B] rounded-xl shadow-xl p-6 md:p-10 border-2 border-[#8B6F47]/30 mb-4 overflow-hidden">
-            <div className="absolute inset-0 opacity-20" style={{backgroundImage: 'repeating-linear-gradient(90deg, transparent, transparent 2px, rgba(139,111,71,0.08) 2px, rgba(139,111,71,0.08) 4px)'}} />
+          <section className="relative rounded-xl shadow-xl p-6 md:p-10 border-2 border-[#8B6F47]/30 overflow-hidden" style={{background: 'linear-gradient(135deg, #a67c52 0%, #bf9b6f 20%, #d4a574 40%, #c89f6a 60%, #a67c52 80%, #bf9b6f 100%)', backgroundSize: '400% 400%'}}>
+            <div className="absolute inset-0" style={{backgroundImage: 'url("data:image/svg+xml,%3Csvg width="200" height="200" xmlns="http://www.w3.org/2000/svg"%3E%3Cfilter id="noise"%3E%3CfeTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" /%3E%3C/filter%3E%3Crect width="100%25" height="100%25" filter="url(%23noise)" opacity="0.12"/%3E%3C/svg%3E")', opacity: 0.5}} />
+            <div className="absolute inset-0" style={{backgroundImage: 'repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.02) 2px, rgba(0,0,0,0.02) 3px), repeating-linear-gradient(90deg, transparent, transparent 15px, rgba(139,111,71,0.03) 15px, rgba(139,111,71,0.03) 16px)'}} />
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div className="order-2 md:order-1">
                 <h2 className="text-3xl md:text-4xl font-bold text-[hsl(var(--wood-dark))] mb-4 uppercase">
@@ -84,8 +85,9 @@ const Index = () => {
             </div>
           </section>
 
-          <section className="relative bg-gradient-to-br from-[#7B9EA8] via-[#6A8E98] to-[#5B8090] rounded-xl shadow-xl p-6 md:p-10 border-2 border-[#8B6F47]/30 mb-4 overflow-hidden">
-            <div className="absolute inset-0 opacity-25" style={{backgroundImage: 'repeating-linear-gradient(90deg, transparent, transparent 2px, rgba(255,255,255,0.08) 2px, rgba(255,255,255,0.08) 4px)'}} />
+          <section className="relative rounded-xl shadow-xl p-6 md:p-10 border-2 border-[#8B6F47]/30 overflow-hidden" style={{background: 'linear-gradient(135deg, #5b7f8a 0%, #6a8e98 30%, #7b9ea8 50%, #6a8e98 70%, #5b7f8a 100%)', backgroundSize: '400% 400%'}}>
+            <div className="absolute inset-0" style={{backgroundImage: 'url("data:image/svg+xml,%3Csvg width="200" height="200" xmlns="http://www.w3.org/2000/svg"%3E%3Cfilter id="noise"%3E%3CfeTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" /%3E%3C/filter%3E%3Crect width="100%25" height="100%25" filter="url(%23noise)" opacity="0.1"/%3E%3C/svg%3E")', opacity: 0.6}} />
+            <div className="absolute inset-0" style={{backgroundImage: 'repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(255,255,255,0.02) 2px, rgba(255,255,255,0.02) 3px), repeating-linear-gradient(90deg, transparent, transparent 18px, rgba(0,0,0,0.02) 18px, rgba(0,0,0,0.02) 19px)'}} />
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
                 <img 
@@ -120,8 +122,9 @@ const Index = () => {
             </div>
           </section>
 
-          <section className="relative bg-gradient-to-br from-[#8B9B7B] via-[#7A8A6B] to-[#6B7B5B] rounded-xl shadow-xl p-6 md:p-10 border-2 border-[#8B6F47]/30 mb-4 overflow-hidden">
-            <div className="absolute inset-0 opacity-25" style={{backgroundImage: 'repeating-linear-gradient(90deg, transparent, transparent 2px, rgba(0,0,0,0.06) 2px, rgba(0,0,0,0.06) 4px)'}} />
+          <section className="relative rounded-xl shadow-xl p-6 md:p-10 border-2 border-[#8B6F47]/30 overflow-hidden" style={{background: 'linear-gradient(135deg, #6b7b5b 0%, #7a8a6b 25%, #8b9b7b 50%, #7a8a6b 75%, #6b7b5b 100%)', backgroundSize: '400% 400%'}}>
+            <div className="absolute inset-0" style={{backgroundImage: 'url("data:image/svg+xml,%3Csvg width="200" height="200" xmlns="http://www.w3.org/2000/svg"%3E%3Cfilter id="noise"%3E%3CfeTurbulence type="fractalNoise" baseFrequency="0.75" numOctaves="3" /%3E%3C/filter%3E%3Crect width="100%25" height="100%25" filter="url(%23noise)" opacity="0.13"/%3E%3C/svg%3E")', opacity: 0.5}} />
+            <div className="absolute inset-0" style={{backgroundImage: 'repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.025) 2px, rgba(0,0,0,0.025) 3px), repeating-linear-gradient(90deg, transparent, transparent 16px, rgba(0,0,0,0.02) 16px, rgba(0,0,0,0.02) 17px)'}} />
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div className="order-2 md:order-1">
                 <h2 className="text-3xl md:text-4xl font-bold text-[hsl(var(--primary-foreground))] mb-4 uppercase text-shadow-light">
@@ -156,9 +159,9 @@ const Index = () => {
             </div>
           </section>
 
-          <section className="relative bg-gradient-to-br from-[#C67B7B] via-[#D4A574] to-[#B86B6B] rounded-2xl shadow-2xl p-8 md:p-16 text-center border-4 border-[#8B6F47]/40 overflow-hidden">
-            <div className="absolute inset-0 opacity-25" style={{backgroundImage: 'radial-gradient(circle at 30% 20%, rgba(255,255,255,0.15) 0%, transparent 40%), radial-gradient(circle at 70% 80%, rgba(0,0,0,0.1) 0%, transparent 40%)'}} />
-            <div className="absolute inset-0 opacity-30" style={{backgroundImage: 'repeating-linear-gradient(90deg, transparent, transparent 2px, rgba(0,0,0,0.05) 2px, rgba(0,0,0,0.05) 4px)'}} />
+          <section className="relative rounded-2xl shadow-2xl p-8 md:p-16 text-center border-4 border-[#8B6F47]/40 overflow-hidden" style={{background: 'linear-gradient(135deg, #b86b6b 0%, #c67b7b 20%, #d4a574 40%, #c67b7b 60%, #b86b6b 80%, #c67b7b 100%)', backgroundSize: '400% 400%'}}>
+            <div className="absolute inset-0" style={{backgroundImage: 'url("data:image/svg+xml,%3Csvg width="200" height="200" xmlns="http://www.w3.org/2000/svg"%3E%3Cfilter id="noise"%3E%3CfeTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="4" /%3E%3C/filter%3E%3Crect width="100%25" height="100%25" filter="url(%23noise)" opacity="0.14"/%3E%3C/svg%3E")', opacity: 0.5}} />
+            <div className="absolute inset-0" style={{backgroundImage: 'repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.03) 2px, rgba(0,0,0,0.03) 3px), repeating-linear-gradient(90deg, transparent, transparent 17px, rgba(0,0,0,0.025) 17px, rgba(0,0,0,0.025) 18px)'}} />
             <div className="absolute top-6 left-6 w-4 h-4 rounded-full bg-[hsl(var(--wood-dark))] shadow-inner" />
             <div className="absolute top-6 right-6 w-4 h-4 rounded-full bg-[hsl(var(--wood-dark))] shadow-inner" />
             <div className="absolute bottom-6 left-6 w-4 h-4 rounded-full bg-[hsl(var(--wood-dark))] shadow-inner" />
