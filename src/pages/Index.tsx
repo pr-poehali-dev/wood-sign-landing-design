@@ -13,7 +13,8 @@ const Index = () => {
       <div className="relative max-w-5xl mx-auto px-4 py-8 md:py-12">
         <div className="space-y-0">
           
-          <section className="relative bg-gradient-to-br from-[hsl(var(--wood-dark))] via-[hsl(var(--wood-medium))] to-[hsl(var(--wood-dark))] rounded-2xl shadow-2xl p-8 md:p-16 text-center wood-texture border-4 border-[hsl(var(--wood-dark))]/50 mb-4">
+          <section className="relative bg-gradient-to-br from-[#8B6F47] via-[#9B7F57] to-[#7A5F3F] rounded-2xl shadow-2xl p-8 md:p-16 text-center wood-texture border-4 border-[#6B5437]/50 mb-4 overflow-hidden">
+            <div className="absolute inset-0 opacity-20" style={{backgroundImage: 'radial-gradient(circle at 20% 50%, rgba(255,255,255,0.1) 0%, transparent 50%), radial-gradient(circle at 80% 50%, rgba(0,0,0,0.1) 0%, transparent 50%)'}} />
             <div className="absolute top-4 left-4 w-3 h-3 rounded-full bg-[hsl(var(--wood-dark))] shadow-inner" />
             <div className="absolute top-4 right-4 w-3 h-3 rounded-full bg-[hsl(var(--wood-dark))] shadow-inner" />
             <div className="absolute bottom-4 left-4 w-3 h-3 rounded-full bg-[hsl(var(--wood-dark))] shadow-inner" />
@@ -46,7 +47,8 @@ const Index = () => {
             </div>
           </section>
 
-          <section className="relative bg-gradient-to-br from-[hsl(var(--wood-light))] to-[hsl(var(--wood-medium))] rounded-xl shadow-xl p-6 md:p-10 wood-texture border-2 border-[hsl(var(--wood-dark))]/30 mb-4">
+          <section className="relative bg-gradient-to-br from-[#D4A574] via-[#C89F6A] to-[#B8946B] rounded-xl shadow-xl p-6 md:p-10 wood-texture border-2 border-[#8B6F47]/30 mb-4 overflow-hidden">
+            <div className="absolute inset-0 opacity-10" style={{backgroundImage: 'linear-gradient(45deg, rgba(139,111,71,0.1) 25%, transparent 25%, transparent 75%, rgba(139,111,71,0.1) 75%), linear-gradient(45deg, rgba(139,111,71,0.1) 25%, transparent 25%, transparent 75%, rgba(139,111,71,0.1) 75%)', backgroundSize: '40px 40px', backgroundPosition: '0 0, 20px 20px'}} />
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div className="order-2 md:order-1">
                 <h2 className="text-3xl md:text-4xl font-bold text-[hsl(var(--wood-dark))] mb-4 uppercase">
@@ -81,7 +83,8 @@ const Index = () => {
             </div>
           </section>
 
-          <section className="relative bg-gradient-to-br from-[hsl(var(--soft-blue))] to-[hsl(var(--soft-blue))]/80 rounded-xl shadow-xl p-6 md:p-10 wood-texture border-2 border-[hsl(var(--wood-dark))]/30 mb-4">
+          <section className="relative bg-gradient-to-br from-[#7B9EA8] via-[#6A8E98] to-[#5B8090] rounded-xl shadow-xl p-6 md:p-10 wood-texture border-2 border-[#8B6F47]/30 mb-4 overflow-hidden">
+            <div className="absolute inset-0 opacity-15" style={{backgroundImage: 'repeating-linear-gradient(45deg, transparent, transparent 20px, rgba(255,255,255,0.05) 20px, rgba(255,255,255,0.05) 40px)'}} />
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
                 <img 
@@ -116,7 +119,8 @@ const Index = () => {
             </div>
           </section>
 
-          <section className="relative bg-gradient-to-br from-[hsl(var(--soft-green))] to-[hsl(var(--soft-green))]/80 rounded-xl shadow-xl p-6 md:p-10 wood-texture border-2 border-[hsl(var(--wood-dark))]/30 mb-4">
+          <section className="relative bg-gradient-to-br from-[#8B9B7B] via-[#7A8A6B] to-[#6B7B5B] rounded-xl shadow-xl p-6 md:p-10 wood-texture border-2 border-[#8B6F47]/30 mb-4 overflow-hidden">
+            <div className="absolute inset-0 opacity-10" style={{backgroundImage: 'radial-gradient(ellipse at top, rgba(255,255,255,0.1) 0%, transparent 60%)'}} />
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div className="order-2 md:order-1">
                 <h2 className="text-3xl md:text-4xl font-bold text-[hsl(var(--primary-foreground))] mb-4 uppercase text-shadow-light">
@@ -151,7 +155,8 @@ const Index = () => {
             </div>
           </section>
 
-          <section className="relative bg-gradient-to-br from-[hsl(var(--soft-red))] via-[hsl(var(--ochre))] to-[hsl(var(--soft-red))] rounded-2xl shadow-2xl p-8 md:p-16 text-center wood-texture border-4 border-[hsl(var(--wood-dark))]/40">
+          <section className="relative bg-gradient-to-br from-[#C67B7B] via-[#D4A574] to-[#B86B6B] rounded-2xl shadow-2xl p-8 md:p-16 text-center wood-texture border-4 border-[#8B6F47]/40 overflow-hidden">
+            <div className="absolute inset-0 opacity-20" style={{backgroundImage: 'radial-gradient(circle at 30% 20%, rgba(255,255,255,0.15) 0%, transparent 40%), radial-gradient(circle at 70% 80%, rgba(0,0,0,0.1) 0%, transparent 40%)'}} />
             <div className="absolute top-6 left-6 w-4 h-4 rounded-full bg-[hsl(var(--wood-dark))] shadow-inner" />
             <div className="absolute top-6 right-6 w-4 h-4 rounded-full bg-[hsl(var(--wood-dark))] shadow-inner" />
             <div className="absolute bottom-6 left-6 w-4 h-4 rounded-full bg-[hsl(var(--wood-dark))] shadow-inner" />
